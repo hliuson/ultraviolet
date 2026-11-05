@@ -1,0 +1,95 @@
+{
+ "ckpt": "/home/user/vt/math-pt/rl/runs/rl-run-a/step250.pt",
+ "res": {
+  "a_normal/greedy/nomm": {
+   "acc": 0.07836990595611286,
+   "mean_len": 618.3667711598746,
+   "close_rate": 0.890282131661442,
+   "arith_correct_frac": 0.7163636363636363,
+   "arith_claims_per_trace": 0.8620689655172413
+  },
+  "a_normal/greedy/gr_big": {
+   "acc": 0.066,
+   "mean_len": 637.313,
+   "close_rate": 0.878,
+   "arith_correct_frac": 0.5937777777777777,
+   "arith_claims_per_trace": 1.125
+  },
+  "a_normal/t0.7x4/nomm": {
+   "acc": 0.09561128526645768,
+   "pass@4": 0.2006269592476489,
+   "mean_len": 490.45846394984324,
+   "close_rate": 0.9647335423197492,
+   "arith_correct_frac": 0.6823027718550106,
+   "arith_claims_per_trace": 0.7351097178683386
+  },
+  "a_normal/t0.7x4/gr_big": {
+   "acc": 0.059,
+   "pass@4": 0.12,
+   "mean_len": 554.035,
+   "close_rate": 0.9715,
+   "arith_correct_frac": 0.6272169167803547,
+   "arith_claims_per_trace": 0.733
+  },
+  "c_answer_only/greedy/nomm": {
+   "acc": 0.0438871473354232,
+   "mean_len": 12.796238244514107
+  },
+  "c_answer_only/greedy/gr_big": {
+   "acc": 0.005,
+   "mean_len": 13.323
+  },
+  "c_answer_only/t0.7x4/nomm": {
+   "acc": 0.03683385579937304,
+   "pass@4": 0.050156739811912224,
+   "mean_len": 13.36128526645768
+  },
+  "c_answer_only/t0.7x4/gr_big": {
+   "acc": 0.003,
+   "pass@4": 0.007,
+   "mean_len": 13.42425
+  },
+  "b_nothink/greedy/nomm": {
+   "acc": 0.10344827586206896,
+   "mean_len": 237.38244514106583
+  },
+  "b_nothink/greedy/gr_big": {
+   "acc": 0.06,
+   "mean_len": 259.504
+  },
+  "b_nothink/t0.7x4/nomm": {
+   "acc": 0.07445141065830721,
+   "pass@4": 0.1755485893416928,
+   "mean_len": 247.8934169278997
+  },
+  "b_nothink/t0.7x4/gr_big": {
+   "acc": 0.04625,
+   "pass@4": 0.107,
+   "mean_len": 260.64175
+  },
+  "delta_a_minus_c/greedy/nomm": {
+   "acc": 0.03448275862068966
+  },
+  "delta_a_minus_b/greedy/nomm": {
+   "acc": -0.025078369905956105
+  },
+  "delta_a_minus_c/t0.7x4/nomm": {
+   "acc": 0.05877742946708464
+  },
+  "delta_a_minus_b/t0.7x4/nomm": {
+   "acc": 0.02115987460815047
+  },
+  "delta_a_minus_c/greedy/gr_big": {
+   "acc": 0.061000000000000006
+  },
+  "delta_a_minus_b/greedy/gr_big": {
+   "acc": 0.006000000000000005
+  },
+  "delta_a_minus_c/t0.7x4/gr_big": {
+   "acc": 0.055999999999999994
+  },
+  "delta_a_minus_b/t0.7x4/gr_big": {
+   "acc": 0.012749999999999997
+  }
+ }
+}

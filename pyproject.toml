@@ -1,0 +1,20 @@
+[project]
+name = "ultraviolet"
+version = "0.1.0"
+description = "Training, evaluation and RL code for UV-50M, a 50.8M-parameter math language model"
+requires-python = ">=3.10"
+# Core: model / pretrain / RL trainer / benches.
+dependencies = ["torch>=2.5", "numpy", "tokenizers", "wandb", "pyarrow"]
+
+[project.optional-dependencies]
+# Corpus download / build, graders, task suite, synthetic generators (scripts/data, grader_v2, ultraviolet/tasks, workbench/synth)
+data = ["huggingface_hub", "math-verify", "reasoning-gym", "sympy"]
+# train_tokenizer.py HF tokenizer export
+hf = ["transformers"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["ultraviolet*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

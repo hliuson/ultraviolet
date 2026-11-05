@@ -1,0 +1,12 @@
+{
+ "nemo4plus": {"raw": "RAW2", "split": 16, "kind": "web", "license": "NVIDIA-Data-Agreement (internal training only; no redistribution; phi-4 pass-through)"},
+ "nemomind": {"raw": "RAW2", "split": 16, "kind": "textbook_dialogue", "license": "NVIDIA-Data-Agreement (internal training only; no redistribution; phi-4 pass-through)"},
+ "cosmo_automath": {"raw": "RAW", "max_files": 5},
+ "cosmo_khan": {"raw": "RAW"},
+ "numina_cot": {"raw": "RAW"},
+ "numina15": {"raw": "RAW"},
+ "omi2": {"raw": "RAW"},
+ "metamath": {"raw": "RAW"},
+ "openr1": {"raw": "RAW"},
+ "omr_cot": {"raw": "RAW"}
+}

@@ -1,0 +1,14 @@
+{
+ "ckpt": "/home/user/vt/math-pt/rl/runs/rl-run-a/step250.pt",
+ "res": {
+  "passk": {
+   "K": 64,
+   "temp": 1.0,
+   "cond": "think",
+   "frac_forced": 0.01284375,
+   "mean_len": 531.82471875,
+   "pass@1": 0.05040625,
+   "pass@64": 0.344
+  }
+ }
+}

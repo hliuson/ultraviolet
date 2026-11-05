@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.pt
+*.pth
+*.safetensors
+*.npz
+runs/
+logs/
+wandb/
+
+# local agent / lab bookkeeping (not published)
+AGENTS.md
+CLAUDE.md
+STATUS.md
+scripts/local.sh
+workbench/envs/local/
+tests/local/
+docs/local/
